@@ -3,11 +3,11 @@ import axios from 'axios';
 import { ref } from 'vue';
 import { useRouter, useRoute } from 'vue-router'
 
-const firstName = ref('admin');
-const lastName = ref('admin');
-const userName = ref('admin');
-const emailAddress = ref('admin@gmail.com');
-const password = ref('admin123');
+const firstName = ref('');
+const lastName = ref('');
+const userName = ref('');
+const emailAddress = ref('');
+const password = ref('');
 const router = useRouter()
 const url = import.meta.env.VITE_BASE_URL;
 
