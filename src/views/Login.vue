@@ -38,7 +38,6 @@ const login = async () => {
                     class="mt-[20px] bg-indigo-500 w-[200px] py-[10px] rounded-[10px] text-[#fff] text-[18px]">
                     submit
                 </button>
-                <p class="border border-white px-4 py-2">If you have a account <RouterLink class="text-white" to="/login">login</RouterLink> </p>
             </form>
         </div>
     </div>
