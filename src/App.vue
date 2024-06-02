@@ -15,7 +15,7 @@ console.log(token.value);
 
 onMounted(() => {
   if (token.value === null) {
-    router.push('/login')
+    router.push('/register')
   }
 })
 </script>
